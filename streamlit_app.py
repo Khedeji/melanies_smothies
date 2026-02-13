@@ -6,7 +6,7 @@ from snowflake.snowpark.functions import col
 # st.title(f"Example Streamlit App :balloon: {st.__version__}")
 st.title(":cup_with_straw: Customize Your Smoothie! :cup_with_straw:")
 st.write(
-  """Choose the fruits you want to use in your custom smoothie!
+  """Choose the fruits you want to use in your custom smoothie app!
   """
 )
 title = st.text_input("Name on Smoothie")
